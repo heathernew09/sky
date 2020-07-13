@@ -1,0 +1,76 @@
+{
+    "key": "group_5d4060b32e153",
+    "title": "1 Row Options",
+    "fields": [
+        {
+            "key": "field_5d4063ae16a9b",
+            "label": "Row Options",
+            "name": "row_options",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "full": "Use Full Width for this Row",
+                "middle-align": "Align content vertically"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "horizontal",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        },
+        {
+            "key": "field_5d406b15d77ef",
+            "label": "Grid Type",
+            "name": "grid_type",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "float": "Float Grid",
+                "flex": "Flex Grid",
+                "css": "Css Grid"
+            },
+            "default_value": [
+                "float"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "modified": 1573670890
+}

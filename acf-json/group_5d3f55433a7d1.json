@@ -1,0 +1,229 @@
+{
+    "key": "group_5d3f55433a7d1",
+    "title": "1 Video",
+    "fields": [
+        {
+            "key": "field_5d3f5c503db66",
+            "label": "Type of Video",
+            "name": "type_of_video",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "acfe_permissions": "",
+            "choices": {
+                "embed": "Embedded Video",
+                "lightbox": "Lightbox with screencover"
+            },
+            "default_value": "embed",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5d3f5545f4b9e",
+            "label": "Video Options",
+            "name": "video_options",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5d3f5c503db66",
+                        "operator": "==",
+                        "value": "lightbox"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "custom_button": "Add Custom Button",
+                "lightbox_content": "Add Lightbox Content"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "horizontal",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        },
+        {
+            "key": "field_5d42083650b54",
+            "label": "Class",
+            "name": "class",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d3f59dcf4ba1",
+            "label": "Embed Code",
+            "name": "embed_code",
+            "type": "wysiwyg",
+            "instructions": "Pull this embed code from the share function of the video source. (vimeo or youtube)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5d3f5a8cf4ba2",
+            "label": "Custom Button",
+            "name": "custom_button",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5d3f5c503db66",
+                        "operator": "==",
+                        "value": "lightbox"
+                    },
+                    {
+                        "field": "field_5d3f5545f4b9e",
+                        "operator": "==",
+                        "value": "custom_button"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "30",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5d3f5aa2f4ba3",
+            "label": "Screen Cover",
+            "name": "screen_cover",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5d3f5c503db66",
+                        "operator": "==",
+                        "value": "lightbox"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5d3f5ab8f4ba4",
+            "label": "Additional Lightbox Content",
+            "name": "additional_lightbox_content",
+            "type": "wysiwyg",
+            "instructions": "You can use this to put content below the video in the lightbox. (field only active for lightbox video)",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5d3f5c503db66",
+                        "operator": "==",
+                        "value": "lightbox"
+                    },
+                    {
+                        "field": "field_5d3f5545f4b9e",
+                        "operator": "==",
+                        "value": "lightbox_content"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/kitchen-sink.php"
+            }
+        ]
+    ],
+    "menu_order": 6,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 0,
+    "description": "",
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_permissions": "",
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1594495790
+}

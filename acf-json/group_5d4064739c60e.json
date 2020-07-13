@@ -1,0 +1,60 @@
+{
+    "key": "group_5d4064739c60e",
+    "title": "1 Background Colors",
+    "fields": [
+        {
+            "key": "field_5d4064bcdd282",
+            "label": "Color",
+            "name": "background_color",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "transparent": "Transparent",
+                "whiteBk": "White",
+                "blackBk": "Black",
+                "navyBk": "Navy",
+                "blueBk": "Blue",
+                "ltblueBk": "Light Blue",
+                "bbblueBk": "Baby Blue",
+                "color1Bk": "color 1",
+                "color2Bk": "color 2",
+                "color3Bk": "color 3",
+                "color4Bk": "color 4",
+                "color5Bk": "color 5",
+                "color6Bk": "color 6"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 0,
+    "description": "",
+    "modified": 1594447381
+}

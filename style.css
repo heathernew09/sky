@@ -1,0 +1,12 @@
+/*
+Theme Name:    Sky
+Theme URI:     https://heathernew.com
+Description:   Foundation based atomic prototype
+Version:       3.2
+Author:        Heather New
+*/
+
+@import 'assets/css/foundation-flex.css';
+@import 'assets/css/style.css';
+@import 'assets/css/flexible-padding.css';
+@import 'assets/css/movement.css';

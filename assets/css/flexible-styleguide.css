@@ -1,0 +1,18 @@
+.accordion-content{
+	background-color:#ececec;
+}
+.accordion-title {
+    padding: .5rem 1rem .25rem;
+    color: #555;
+}
+.colorsblock {
+    margin-bottom: 1em;
+	
+}
+.colorsblock p{
+	margin-bottom:0;
+}
+.colorblockcard{
+	padding:1em;
+	background-color:#fff;
+}

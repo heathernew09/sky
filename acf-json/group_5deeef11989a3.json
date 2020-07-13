@@ -1,0 +1,68 @@
+{
+    "key": "group_5deeef11989a3",
+    "title": "1 Padding Options",
+    "fields": [
+        {
+            "key": "field_5deeb6a7aabfc",
+            "label": "Padding Options",
+            "name": "po",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "nopad": "No Padding",
+                "all-pad": "(1em) Padding All Sides",
+                "all-padd": "(2em) Padding All Sides",
+                "all-paddd": "(3em) Padding All Sides",
+                "all-padddd": "(4em) Padding All Sides",
+                "pad": "(1em) Top & Bottom Pad",
+                "padd": "(2em) Top & Bottom Pad",
+                "paddd": "(3em) Top & Bottom Pad",
+                "padddd": "(4em) Top & Bottom Pad",
+                "top-pad": "(1em) Top Pad Only",
+                "top-padd": "(2em) Top Pad Only",
+                "top-paddd": "(3em) Top Pad Only",
+                "top-padddd": "(4em) Top Pad Only",
+                "bot-pad": "(1em) Bottom Pad Only",
+                "bot-padd": "(2em) Bottom Pad Only",
+                "bot-paddd": "(3em) Bottom Pad Only",
+                "bot-padddd": "(4em) Bottom Pad Only",
+                "side-pad": "(1em) Sides Pad",
+                "side-padd": "(2em) Sides Pad",
+                "side-paddd": "(3em) Sides Pad",
+                "side-padddd": "(4em) Sides Pad"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 0,
+    "description": "",
+    "modified": 1575941291
+}

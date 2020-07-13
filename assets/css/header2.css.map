@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAa,CAAE,OAAO,CAAE,UAAU,CAAC,WAAW,CAAE,CAAC,CACjD,UAAW,CACP,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,MAAM,CAElB,WAAW,CAAC,UAAU,CAAC,KAAK,CAC5B,YAAa,CACT,KAAK,CAAE,KAAK,CACZ,GAAG,CAAE,KAAK,CACV,QAAQ,CAAE,QAAQ",
+"sources": ["../../_dev/scss/header/header2.scss"],
+"names": [],
+"file": "header2.css"
+}

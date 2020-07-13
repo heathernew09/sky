@@ -1,0 +1,133 @@
+{
+    "key": "group_5d3f5ed705e96",
+    "title": "1 Gallery",
+    "fields": [
+        {
+            "key": "field_5d3f5eedd2397",
+            "label": "Gallery Filmstrip",
+            "name": "gallery_slider",
+            "type": "gallery",
+            "instructions": "All images in gallery must be sized the same.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "insert": "append",
+            "library": "all",
+            "min": "",
+            "max": "",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5ec829ffd162c",
+            "label": "Gallery Name",
+            "name": "gallery_name",
+            "type": "text",
+            "instructions": "use all lowercase letters and make sure is unique from any other gallery.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f0bc9244f0d8",
+            "label": "Type of Gallery",
+            "name": "type_of_gallery",
+            "type": "select",
+            "instructions": "Masonry is in progress Orbit and Glider works. Glider only works with one glider gallery a page at the moment.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_permissions": "",
+            "choices": {
+                "orbit": "Orbit",
+                "gliding": "Gliding Gallery",
+                "masonry": "Masonry"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5f0be36a6c92d",
+            "label": "Show Image Captions",
+            "name": "show_image_captions",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5f0bc9244f0d8",
+                        "operator": "==",
+                        "value": "orbit"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_permissions": "",
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-templates\/kitchen-sink.php"
+            }
+        ]
+    ],
+    "menu_order": 7,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 0,
+    "description": "",
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_permissions": "",
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1594618407
+}

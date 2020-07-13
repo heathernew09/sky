@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAY,CACR,QAAQ,CAAE,QAAQ,CAClB,GAAG,CAAE,KAAK",
+"sources": ["../../_dev/scss/header/header5.scss"],
+"names": [],
+"file": "header5.css"
+}

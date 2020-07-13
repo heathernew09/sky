@@ -1,0 +1,74 @@
+{
+    "key": "group_5df4415820cbd",
+    "title": "1 Movement",
+    "fields": [
+        {
+            "key": "field_5df408ddc2711",
+            "label": "Movement",
+            "name": "movement",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "None",
+                "fadeIn": "Fade in",
+                "fadeInRight": "Fade in Right",
+                "fadeInLeft": "Fade in Left",
+                "fadeInUp": "Fade in Up",
+                "fadeInDown": "Fade in Down",
+                "fadeOut": "Fade out",
+                "fadeOutDown": "Fade out Down",
+                "fadeOutUp": "Fade out Up",
+                "fadeOutLeft": "Fade out Left",
+                "fadeOutRight": "Fade out Right",
+                "bounceInLeft": "Bounce in Left",
+                "bounceInRight": "Bounce in Right",
+                "bounceInUp": "Bounce in Up",
+                "bouneInDown": "Bounce in Down",
+                "bounceIn": "Bounce in",
+                "lightSpeedInRight": "Light Speed in Right",
+                "lightSpeedInLeft": "Light Speed in Left",
+                "lightSpeedOutRight": "Light Speed out Right",
+                "lightSpeedOutLeft": "Light Speed Out Left",
+                "growIn": "Grow in",
+                "shake": "Shake",
+                "shakeUp": "Shake up",
+                "shakeDown": "Shake down",
+                "rollOut": "Roll out"
+            },
+            "default_value": [
+                "none"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 0,
+    "description": "",
+    "modified": 1576710684
+}

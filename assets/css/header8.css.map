@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAc,CACV,MAAM,CAAE,GAAG,CACX,QAAQ,CAAE,QAAQ,CAClB,aAAa,CAAE,MAAM,CACpB,OAAO,CAAE,MAAM,CAGpB,eAAgB,CACZ,UAAU,CAAE,KAAK",
+"sources": ["../../_dev/scss/header/header8.scss"],
+"names": [],
+"file": "header8.css"
+}

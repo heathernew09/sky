@@ -1,0 +1,22 @@
+p.phoneLink a{ padding: .7rem 1rem;line-height: 1;}
+.head-logo {
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+}
+.phone-link{text-align:right;}
+.extra-stuff {
+    float: right;
+    top: -32px;
+    position: relative;
+}
+ul.desktop-menu, ul.desktop-menu li {
+    display: inline-block!important;
+}
+ul#left_links {
+    text-align: right;
+}
+
+ul#right_links {
+    text-align: left;
+}

@@ -1,0 +1,88 @@
+/*Global*/
+@import "global/colors";
+@import "global/typography";
+@import "global/grid";
+@import "global/mediaqueries";
+@import "global/forms";
+
+/*Elements*/
+@import "elements/accordion";
+@import "elements/blockquote";
+@import "elements/blogpost";
+@import "elements/button";
+@import "elements/content";
+@import "elements/cta";
+@import "elements/gallery";
+@import "elements/headline";
+@import "elements/iconstat";
+@import "elements/image";
+@import "elements/imageslider";
+@import "elements/memberexpander";
+@import "elements/quoterepeater";
+@import "elements/table";
+@import "elements/video";
+
+/*Header*/
+@import 'header/headerbase';
+
+/*Footer*/
+@import 'footer/footerbase';
+
+/*-------------------------------------
+
+/*Image/Slider*/
+
+.img-responsive {
+  width: 100%;
+}
+
+/*--------------------------------------------------------------
+## Blog Hero
+--------------------------------------------------------------*/
+
+.sky-blogHero {
+  position: relative;
+}
+
+.sky-blogHeroOverlay {
+  position: absolute;
+  background-color: #000000a8;
+  color: #fff;
+  padding: 2em;
+  width: 30%;
+  bottom: 0;
+  right: 0;
+
+  label {
+    color: #fff;
+  }
+}
+
+/*--------------------------------------------------------------
+## Single Post
+--------------------------------------------------------------*/
+
+.blog-details a {
+  color: #000;
+}
+
+/*--------------------------------------------------------------
+## Page Hero
+--------------------------------------------------------------*/
+
+.sky-pageHero {
+  position: relative;
+}
+
+.sky-pageHeroOverlay {
+  label {
+    color: #fff;
+  }
+
+  position: absolute;
+  background-color: #000000a8;
+  color: #fff;
+  padding: 2em 4em;
+  width: 100%;
+  top: 40%;
+}

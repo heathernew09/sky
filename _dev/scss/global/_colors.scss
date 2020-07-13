@@ -1,0 +1,47 @@
+// Color Names
+$black: #000;
+$white: #fff;
+$navy: #071739;
+$blue: #274684;
+$ltblue: #709fdc;
+$bbblue: #b9d5fd;
+
+$color1: #aaaaaa;
+$color2: #888888;
+$color3: #777777;
+$color4: #555555;
+$color5: #444444;
+$color6: #222222;
+$transparent: transparent;
+
+.black {color: $black;}
+.white {color: $white;}
+
+
+/*Prototype Colors*/
+.noBk {background-color: $transparent;}
+.blackBk {background-color: $black;}
+.whiteBk {background-color: $white;}
+.color1Bk {background-color: $color1;}
+.color2Bk {background-color: $color2;}
+.color3Bk {background-color: $color3;}
+.color4Bk {background-color: $color4;}
+.color5Bk {background-color: $color5;}
+.color6Bk {background-color: $color6;}
+.color1 {color:$color1;}
+.color2 {color:$color2;}
+.color3 {color:$color3;}
+.color4 {color:$color4;}
+.color5 {color:$color5;}
+.color6 {color:$color6;}
+
+/*Brand Colors*/
+.navyBk {background-color:$navy;}
+.blueBk {background-color:$blue;}
+.ltblueBk  {background-color:$ltblue;}
+.bbblueBk {background-color:$bbblue;}
+
+.navy {color:$navy;}
+.blue {color:$blue;}
+.ltblue {color:$ltblue;}
+.bbblue {color:$bbblue;}

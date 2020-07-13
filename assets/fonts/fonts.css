@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'AvenirBook';
+    src: url('Avenir-Book.eot');
+    src: url('Avenir-Book.eot?#iefix') format('embedded-opentype'),
+         url('Avenir-Book.woff') format('woff'),
+         url('Avenir-Book.ttf') format('truetype'),
+         url('Avenir-Book.svg#GothamHTFBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AvenirMedium';
+    src: url('Avenir-Medium.eot');
+    src: url('Avenir-Medium.eot?#iefix') format('embedded-opentype'),
+         url('Avenir-Medium.woff') format('woff'),
+         url('Avenir-Medium.ttf') format('truetype'),
+         url('Avenir-Medium.svg#GothamHTFBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AvenirBlack';
+    src: url('Avenir-Black.eot');
+    src: url('Avenir-Black.eot?#iefix') format('embedded-opentype'),
+         url('Avenir-Black.woff') format('woff'),
+         url('Avenir-Black.ttf') format('truetype'),
+         url('Avenir-Black.svg#GothamHTFBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
