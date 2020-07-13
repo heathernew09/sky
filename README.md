@@ -1,11 +1,6 @@
-# Sky forked from FoundationPress and expanded with ACF [![Build Status](https://travis-ci.org/olefredrik/FoundationPress.svg?branch=master)](https://travis-ci.org/olefredrik/FoundationPress)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/olefredrik/foundationpress?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+# Sky forked from FoundationPress and expanded with ACF [![Build Status](Basic, expansion occurring)
 
 This is a starter-theme for WordPress based on Foundation 6, the most advanced responsive (mobile-first) framework in the world. The purpose of Sky, is to act as a small and handy toolbox that contains the essentials needed to build any design. Sky is meant to be a starting point, not the final product.
-
-Please fork, copy, modify, delete, share or do whatever you like with this.
-
-All contributions are welcome!
 
 ## Requirements
 
@@ -59,13 +54,19 @@ Running this command will build and minify the theme's assets and place a `.zip`
 
 ### Styles
 
- * `style.css`: Do not worry about this file. (For some reason) it's required by WordPress. All styling are handled in the Sass files described below
+ * `style.css`: Do not worry about this file. (For some reason) it's required by WordPress. All Foundation base styling are handled in the Sass files described below
 
  * `assets/scss/foundation.scss`: Make imports for all your styles here
  * `assets/scss/global/*.scss`: Global settings
  * `assets/scss/components/*.scss`: Buttons etc.
  * `assets/scss/modules/*.scss`: Topbar, footer etc.
  * `assets/scss/templates/*.scss`: Page template spesific styling
+
+The additional CSS for the flexible clone portion of the site are in _dev which compile to assets/css to meet up with the other foundation styles. I might combine them but I'm not sure of the benefits or red flags yet. I am attempting to use Dreamweaver for compiling the SASS to CSS for the time being but I do think I will change it over to codeKit to have better control as well as managing the js files although FoundationPress is capable of it using npm tools. 
+
+To variate from the original plan and testing out new tools I have implemented Local by flywheel to run wordpress. I start with that step, then clone the theme to the theme directory. 
+
+I am also using Sourcetree which was challenging due to the key not aligning at first but now I'm connected locally and to the repo. 
 
 Please note that you **must** run `npm run build` or `npm run watch` in your terminal for the styles to be copied and concatenated. See the [Gulpfile.js](https://github.com/olefredrik/FoundationPress/blob/master/gulpfile.js) for details
 
@@ -106,11 +107,7 @@ $ npm run phpcbf
 
 * [Clean FoundationPress install](http://foundationpress.olefredrik.com/)
 * [FoundationPress Kitchen Sink - see every single element in action](http://foundationpress.olefredrik.com/kitchen-sink/)
-
-## Unit Testing With Travis-CI
-
-FoundationPress is completely ready to be deployed to and tested by Travis-CI for WordPress Coding Standards and best practices. All you need to do to activate the test is sign up and follow the instructions to point Travis-CI towards your repo. Just don't forget to update the status badge to point to your repositories unit test.
-[Travis-CI](https://travis-ci.org/)
+* [Sky - pieces in dev](https://heathernew.com/sky)
 
 ## UI toolkits for rapid prototyping
 
